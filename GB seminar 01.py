@@ -3,8 +3,7 @@ print('Введите трёхзначное число')
 number = input()
 sumn = 0
 num = 0
-while len(number) < 4:
-    for n in number:
+for n in number:
         num = int(n) 
         sumn += num
 print("Сумма цифр: ", sumn)
